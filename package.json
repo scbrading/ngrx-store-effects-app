@@ -5,8 +5,7 @@
   "license": "MIT",
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack -p",
-    "build:dev":
-      "cross-env NODE_ENV=development webpack-dev-server --inline --hot",
+    "build:dev": "cross-env NODE_ENV=development webpack-dev-server --inline --hot",
     "build:production": "npm run clean && npm run build",
     "clean": "rimraf build",
     "start": "npm run build:dev",
@@ -38,7 +37,6 @@
     "karma-spec-reporter": "0.0.31",
     "karma-webpack": "2.0.4",
     "ngrx-store-freeze": "^0.2.0",
-    "node-sass": "4.5.3",
     "progress-bar-webpack-plugin": "1.9.3",
     "raw-loader": "0.5.1",
     "rimraf": "2.6.2",
@@ -61,6 +59,7 @@
     "@ngrx/store": "4.1.0",
     "@ngrx/store-devtools": "4.0.0",
     "core-js": "2.5.1",
+    "node-sass": "^4.11.0",
     "reflect-metadata": "0.1.10",
     "rxjs": "5.5.2",
     "ts-helpers": "1.1.2",
